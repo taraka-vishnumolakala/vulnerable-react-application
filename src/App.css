@@ -1,0 +1,32 @@
+.container {
+  margin: auto;
+  padding: 2% 10%;
+}
+
+
+input {
+  margin-right: 6px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.comment-content {
+  margin-top: 5px;
+}
