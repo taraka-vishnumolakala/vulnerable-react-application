@@ -18,7 +18,7 @@ const DomBasedXss = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>DOM Based XSS Example</h1>
       <h2>Search Results</h2>
       <form onSubmit={handleFormSubmit}>

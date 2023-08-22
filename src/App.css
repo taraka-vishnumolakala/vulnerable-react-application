@@ -1,3 +1,14 @@
+body {
+  font-family: 'Open Sans', sans-serif; /* Change 'Roboto' to your chosen font */
+  max-width: 1200px; /* Set your desired line width */
+  margin: 0 auto; /* Center the content if the viewport is wider than the max-width */
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .container {
   margin: auto;
   padding: 2% 10%;
@@ -8,10 +19,6 @@ input {
   margin-right: 6px;
 }
 
-li {
-  display: inline-block;
-  margin-right: 15px;
-}
 
 .comment-section {
   margin-top: 20px;
@@ -29,4 +36,8 @@ li {
 
 .comment-content {
   margin-top: 5px;
+}
+
+.extra-small {
+  font-size: 0.5em; /* Adjust this value as needed */
 }

@@ -7,7 +7,7 @@ const ReflectedXss = () => {
 //  const searchTerm = DOMPurify.sanitize(new URLSearchParams(useLocation().search).get('query'));
  
   return (
-    <div>
+    <div className="container">
         <h1>Reflected XSS Example</h1>
         <h2 dangerouslySetInnerHTML={{ __html: `Search results for:  ${searchTerm}` }}></h2>
     </div>

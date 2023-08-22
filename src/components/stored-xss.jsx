@@ -9,13 +9,13 @@ const StoredXss = () => {
     },
     {
       author: "Malicious Actor",
-      comment: "<p>This is my xss test comment: <script></script></p>"
-    //   comment: "<p>This is my xss test comment: <img src=1 onerror=alert('XSS')></p>"
+      // comment: "<p>This is my xss test comment: <script></script></p>"
+      comment: "<p>This is my xss test comment: <img src=1 onerror=alert('XSS')></p>"
     },
   ];
 
   return (
-    <div>
+    <div className="container">
       <h1>Stored XSS Example</h1>
       <h2>Comments</h2>
       <div className="comment-section">
