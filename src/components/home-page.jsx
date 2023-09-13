@@ -4,7 +4,7 @@ import crossSiteScripting from '../resources/cross-site-scripting.png';
 
 const HomePageContent = () => (
   <div className="container">
-    <h1>Part One - Understanding the basics of Cross-site Scripting</h1>
+    <h1>Part One - Exploring the Basics of Cross-Site Scripting</h1>
     <div class="image-container">
       <img src={crossSiteScripting} alt="cross-site-scripting" width="600" />
       <p><span class="extra-small">Image source: <a href="https://portswigger.net/web-security/cross-site-scripting">https://portswigger.net/web-security/cross-site-scripting</a></span></p>

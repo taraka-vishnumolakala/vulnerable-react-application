@@ -13,12 +13,12 @@ const DomBasedXss = () => {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    // setSearchValue(event.target.elements.search.value);
-    setSearchValue(DOMPurify.sanitize(event.target.elements.search.value));
+    setSearchValue(event.target.elements.search.value);
+    // setSearchValue(DOMPurify.sanitize(event.target.elements.search.value));
   };
 
   return (
-    <div className="container">
+    <div className='container'>
       <h1>DOM Based XSS Example</h1>
       <h2>Search Results</h2>
       <form onSubmit={handleFormSubmit}>
